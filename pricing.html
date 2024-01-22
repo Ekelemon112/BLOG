@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="pricing.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <nav id="solo">
+            <header id="nav-header" class="header">
+                <div class="logo">
+                    <a href="">
+                        <img src="./file/Logo.svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="nav-list">
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    <ul id="">
+                        <li><a href="">Demos<i id="small-icon" class='bx bx-caret-down'></i></a>
+                            <div class="all-list">
+                                <div  id="list-one">
+                                    <ul>
+                                        <!-- <span><i class='bx bx-minus'></i></span> -->
+                                        <li><a href=""><i class='bx bx-minus'></i>Home 1</a></li>
+                                        <li><a href=""><a href=""><i class='bx bx-minus'></i>Home 2</a></li>
+                                        <li><a href=""><a href=""><i class='bx bx-minus'></i>Home 3</a></li>
+                                        <li><a href=""><a href=""><i class='bx bx-minus'></i>Home 4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href=""><a href="">Serivices</a></li>
+                        <li><a href=""><a href="">Pricing</a></li>
+                        <li><a href=""><a href="">Blog</a></li>
+                        <li><a href="" id="blank">All Pages<i id="small-icon" class='bx bx-caret-down'></i></a>
+                            <div class="all-lists">
+                                <div  id="list-one">
+                                    <ul>
+                                        <li><a href=""><i class='bx bx-minus'></i>Home 1</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Home 2</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Home 3</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Home 4</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Services Category</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Services Details</a></li>
+                                    </ul>
+                                </div>
+                                <div  id="list-one">
+                                    <ul>
+                                        <li><a href=""><i class='bx bx-minus'></i>Pricing</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>FAQ</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Contact Us</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Blog</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Blog Category</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Blog Details</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Shop</a></li>
+                                    </ul>
+                                </div>
+                                <div  id="list-one">
+                                    <ul>
+                                        <li><a href=""><i class='bx bx-minus'></i>Shop Category</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Shop Details</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Changelog</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>404</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Style Guide</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Coming Soon</a></li>
+                                        <li><a href=""><i class='bx bx-minus'></i>Licensing</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div id="gy" class="quote">
+                        <a href="">
+                            <h1>Get A Quote Now</h1>
+                        </a>
+                    </div>
+                </nav>
+                <div class="icon">
+                    <i class='bx bxs-shopping-bag'></i>
+                    <div id="small"></div>
+                </div>
+                <div id="vv" class="quote">
+                    <a href="">
+                        <h1>Get A Quote Now</h1>
+                    </a>
+                </div>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+        </header>
+    </nav>
+                <div class="icon">
+                    <i class='bx bxs-shopping-bag'></i>
+                    <div id="small"></div>
+                </div>
+                <div class="quote">
+                    <a href="">
+                        <h1>Get A Quote Now</h1>
+                    </a>
+                </div>
+            </header>
+        </nav>
+        <div class="love">
+            <div class="bb">
+                <img src="./file/bg2.jpg" alt="">
+                <h1>Explore Our  <span>Consulting Packages</span></h1> 
+            </div>
+        </div>
+        <div class="service-body">
+            <div class="pri-body">
+                <h1><span>Pricing Solutions </span>For Success</h1>
+                <p>
+                    At Consultant W, we redefine consultancy through a dynamic fusion of innovation,<br>
+                    expertise, and strategic vision. Our dedicated team is committed to delivering tailored<br>
+                    solutions that transcend traditional consulting boundaries.
+                </p>
+            </div>
+            <div class="selection-card">
+                <div class="all-cards">
+                    <button class="tab-links" id="starter-Pack  active-link"onclick="opentab('starter')">Starter Pack</button>
+                    <button class="tab-links" id="basic-Plan" onclick="opentab('basics')">Basic Plan</button>
+                    <button class="tab-links" id="Pro-Plan" onclick="opentab('Pro-Plans')">Professional Plan</button>
+                    <button class="tab-links" id="En-Plan" onclick="opentab('en-Plans')">Enterprise Plan</button>
+                </div>
+                <div class="cardsx">
+                    <div id="starter" class="pri-card  active-tab">
+                        <div class="price-card">
+                            <div class="fx">
+                                <h1>$45/<span>Month</span></h1>
+                                <img src="./file/mark.webp" alt="">
+                            </div>
+                            <p>
+                                Each package is designed to address specific business needs, providing<br>
+                                clients with tailored solutions for success.
+                            </p>
+                            <ul>
+                                <li>Comprehensive business analysis</li>
+                                <li>Customized strategic planning</li>
+                                <li>One-on-one consultation sessions</li>
+                                <li>Quarterly progress reviews</li>
+                                <li>Email support</li>
+                            </ul>
+                            <a href="">Purchase Now</a>
+                        </div>
+                        <div class="price-cardd">
+                            <video class="vd" src="./file/vg.mp4" loop autoplay muted></video>
+                        </div>
+                    </div>
+                    <div id="basics" class="pri-card">
+                        <div class="price-card">
+                            <div class="fx">
+                                <h1>$90/<span>Month</span></h1>
+                                <img src="./file/mark.webp" alt="">
+                            </div>
+                            <p>
+                                Each package is designed to address specific business needs, providing<br>
+                                clients with tailored solutions for success.
+                            </p>
+                            <ul>
+                                <li>Digital transformation roadmap</li>
+                                <li>Innovation advisory sessions</li>
+                                <li>Technology integration strategy</li>
+                                <li>Monthly progress meetings</li>
+                                <li>Priority email and phone support</li>
+                            </ul>
+                            <a href="">Purchase Now</a>
+                        </div>
+                        <div class="price-cardd">
+                            <video src="./file/vg2.mp4" loop autoplay muted></video>
+                        </div>
+                    </div>
+                    <div id="Pro-Plans" class="pri-card">
+                        <div class="price-cardd">
+                            <video src="./file/vg.mp4" loop autoplay muted></video>
+                        </div>
+                        <div class="price-card">
+                            <div class="fx">
+                                <h1>$145/<span>Month</span></h1>
+                                <img src="./file/mark.webp" alt="">
+                            </div>
+                            <p>
+                                Each package is designed to address specific business needs, providing<br>
+                                clients with tailored solutions for success.
+                            </p>
+                            <ul>
+                                <li>Leadership training workshops</li>
+                                <li>Individual leadership coaching sessions</li>
+                                <li>Team-building exercises</li>
+                                <li>Performance assessments</li>
+                                <li>Ongoing leadership support</li>
+                            </ul>
+                            <a href="">Purchase Now</a>
+                        </div>
+                    </div>
+                    <div id="en-Plans" class="pri-card">
+                        <div class="price-cardd">
+                            <video src="./file/vg2.mp4" loop autoplay muted></video>
+                        </div>
+                        <div class="price-card">
+                            <div class="fx">
+                                <h1>$190/<span>Month</span></h1>
+                                <img src="./file/mark.webp" alt="">
+                            </div>
+                            <p>
+                                Each package is designed to address specific business needs, providing<br>
+                                clients with tailored solutions for success.
+                            </p>
+                            <ul>
+                                <li>Strategic planning and execution</li>
+                                <li>Operational efficiency analysis</li>
+                                <li>Financial consulting and planning</li>
+                                <li>Change management strategy</li>
+                                <li>Full access to all consulting services</li>
+                            </ul>
+                            <a href="">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="customer">
+                <div class="left">
+                    <i class='bx bx-left-arrow-alt' ></i>
+                </div>
+                <div class="custom-all-card">
+                    <div class="customer-card">
+                        <h1>What They Say About Us</h1>
+                        <p>
+                            "Kudos to Consultant W for their <br>
+                            exceptional service. From strategic <br>
+                            planning to implementation. Thrilled <br>
+                            with the results!"
+                        </p>
+                        <div class="cus-card">
+                            <img src="./file/cc1.webp">
+                            <h2>Sophia Lee <br> <span>Lovely Customer</span></h2>
+                        </div>
+                    </div>
+                    <!-- =--------------1 -->
+                    <div class="customer-card">
+                        <h1>What They Say About Us</h1>
+                        <p>
+                            "Consultant W's team has a knack for <br>
+                            understanding business dynamics. <br>
+                            Their solutions are innovative. <br>
+                            Thrilled with the results!"
+                        </p>
+                        <div class="cus-card">
+                            <img src="./file/cc3.webp">
+                            <h2>
+                                Emma Johnson <br> <span>Lovely Customer</span></h2>
+                        </div>
+                    </div>
+                    <!-- =--------------2 -->
+                    <div class="customer-card">
+                        <h1>What They Say About Us</h1>
+                        <p>
+                            "The level of expertise at Consultant W <br>
+                            is unmatched. From the first <br>
+                            consultation to the final result. A <br>
+                            pleasure to work with!"
+                        </p>
+                        <div class="cus-card">
+                            <img src="./file/cc4.webp">
+                            <h2>Olivia Taylor <br> <span>Lovely Customer</span></h2>
+                        </div>
+                    </div>
+                    <!-- =--------------3 -->
+                    <div class="customer-card">
+                        <h1>What They Say About Us</h1>
+                        <p>
+                            "Choosing Consultant W was one of<br>
+                            the best decisions for our company. <br>
+                            They are partners in success. Thanks<br>
+                            for the outstanding support!"
+                        </p>
+                        <div class="cus-card">
+                            <img src="./file/cc2.webp">
+                            <h2>Michael Davis <br> <span>Lovely Customer</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <i id="right" class='bx bx-right-arrow-alt' ></i>
+                </div>
+            </div>
+            
+            <!-- ------------------------ Success Together! -----------------------------  -->
+            <div class="success">
+                <div class="sub-card">
+                    <h1>
+                        Turn Your Vision Into Reality. Let's<br>
+                        Reinvent <span>Success Together!</span>
+                    </h1>
+                    <div class="sub-cards">
+                        <div class="sub-list">
+                            <ul>
+                                <a href=""><li>Home</li></a>
+                                <a href=""><li>OurPricing</li></a>
+                                <a href=""><li>Blog</li></a>
+                                <a href=""><li>Shop</li></a>
+                                <a href=""><li>Contact</li></a>
+                            </ul>
+                        </div>
+                        <div class="sul-soical">
+                            <a href=""><i class='bx bxl-instagram'></i></a>
+                            <a href=""><i class='bx bxl-facebook' ></i></a>
+                            <a href=""><h2>X</h2></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------------------- dnd ----------------  -->
+                <div class="book">
+                    <div class="img1">
+                        <a href=""><img src="./file/Inst 1.jpg" alt=""></a>
+                    </div>
+                    <div class="img2">
+                        <h1><a href=""><img src="./file/Inst 3.jpg" alt=""></a><a href=""><img src="./file/Inst 5.jpg" alt=""></a></h1>
+                        <h1><a href=""><img src="./file/Inst 2.jpg" alt=""></a><a href=""><img src="./file/Inst 4.jpg" alt=""></a></h1>
+                    </div>
+                    <div class="tex-card">
+                        <h1>
+                            Book Your Consultation with <br>
+                            Consultant W!
+                        </h1>
+                        <p>
+                            At Consultant W, we redefine consultancy <br>
+                            through a dynamic fusion of innovation, <br>
+                            expertise, and strategic vision.
+                        </p>
+                        <div class="botton">
+                            <input type="text" title="Please fill out this field" placeholder="Have a question?" value="" required>
+                            <a href="">Let's Start</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy">
+                    <h1>
+                        <a href="">Ekelemon</a>. All Rights Reserved 2023. <a href="">Licensing</a>
+                    </h1>
+                    <h2>
+                        Template <a href="">wCopilot</a>  Powered by <a href=""> QurnLab</a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
